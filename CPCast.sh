@@ -10,14 +10,6 @@ echo BaseDir="$BaseDir" > NewDown.$DtStr.sh
 echo BaseDir="$BaseDir" > PodProc.$DtStr.sh
 echo BaseDir="$BaseDir" > GetXML.$DtStr.sh
 echo '# *********************************************************' >>Newdown.$DtStr.sh
-echo 'DirPrfx="'$BaseDir'/Home/BlackBox"' >>NewDown.$DtStr.sh
-echo 'cd $DirPrfx' >> Newdown.$DtStr.sh
-echo wget -cS -U CPCast http://archive.oit.wrek.org/main/128kb/Wed1130.mp3 -O BlackBox.$DtStr.A.mp3 >>Newdown.$DtStr.sh
-echo wget -cS -U CPCast http://archive.oit.wrek.org/main/128kb/Wed1200.mp3 -O BlackBox.$DtStr.B.mp3 >>Newdown.$DtStr.sh
-echo wget -cS -U CPCast http://archive.oit.wrek.org/main/128kb/Wed1230.mp3 -O BlackBox.$DtStr.C.mp3 >>Newdown.$DtStr.sh
-echo wget -cS -U CPCast http://archive.oit.wrek.org/main/128kb/Wed1300.mp3 -O BlackBox.$DtStr.D.mp3 >>Newdown.$DtStr.sh
-echo cd $BaseDir >> Newdown.$DtStr.sh
-echo '# *********************************************************' >>Newdown.$DtStr.sh
 echo 'DirPrfx="'$BaseDir'/Home/WREK_Country"' >>Newdown.$DtStr.sh
 echo 'cd $DirPrfx' >> Newdown.$DtStr.sh
 echo wget -cS -U CPCast http://archive.oit.wrek.org/main/128kb/Fri1630.mp3 -O WREK_Country.$DtStr.A.mp3 >>NewDown.$DtStr.sh
