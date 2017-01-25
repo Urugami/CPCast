@@ -1,0 +1,1 @@
+tr -d '\r' | sed -e '/&lt;/ s/&lt;/</g' -e '/&gt;/ s/&gt;/>/g' -e '/</ s/</^</g;s/>/>^/g' | tr '^' '\n' | grep -v '^$'

@@ -1,0 +1,1 @@
+/<title>/ s/<title>GNC-\([^ ]*\) #\([0-9]*\) \([^<]*\)<\/title>/<title>GNC_\2-\3-\1<\/title>^|<subtitle>\3<\/subtitle>^|<track>\2<\/track>^|<album>Geek News Central 09<\/album>^|<artist>Todd Cochrane<\/artist>^|<band>Todd Cochrane<\/band>^|<artistURL>http:\/\/www.geeknewscentral.com<\/artistURL>^/

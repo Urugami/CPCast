@@ -1,0 +1,1 @@
+tr '^' '\n' | grep '^|' | sed -e 's/^|//' -e '/<item>/ {x;p;x;}'
